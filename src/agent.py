@@ -18,7 +18,7 @@ class AgentConfig:
     num_attention_heads: int = 12
     num_hidden_layers: int = 12
     model_name: str = "gpt2"
-
+ 
 class Agent:
     """
     NeuroPilot's core agent class that implements advanced cognitive capabilities
