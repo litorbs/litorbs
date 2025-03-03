@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from .memory import EpisodicMemory
 from .cognitive import CognitiveArchitecture
 from .environment import Environment
-
+ 
 @dataclass
 class AgentConfig:
     cognitive_architecture: str = "transformer"
